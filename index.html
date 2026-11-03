@@ -3,67 +3,85 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aliya Dev - Pro Fiverr Freelancer | Web Development & Web Design Expert @aliyadev9</title>
-<meta name="description" content="Pro Level Fiverr Freelancer Aliya Dev @aliyadev9 - I create pro business websites, pro web development, pro web design. Hire me on Fiverr for modern responsive websites.">
+<title>Aliya Dev — Software Engineer | aliyadev9</title>
+<meta name="description" content="Aliya Dev - Pro Software Engineer & Pro Fiverr Freelancer. I build fast, modern business websites. Next.js / React / Tailwind.">
+<link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Space Grotesk',sans-serif}
-body{background:#050508;color:#fff;min-height:100vh;display:flex;justify-content:center;align-items:center;position:relative;overflow-x:hidden;padding:20px}
-.bg{position:fixed;inset:0;background:radial-gradient(600px at 20% 20%, #a855f722, transparent),radial-gradient(800px at 80% 80%, #ec489922, transparent),#050508}
-.card{position:relative;z-index:2;width:100%;max-width:700px;background:linear-gradient(180deg,rgba(255,255,255,0.09),rgba(255,255,255,0.03));backdrop-filter:blur(40px);border:1px solid rgba(255,255,255,0.12);border-radius:32px;padding:40px;box-shadow:0 30px 80px rgba(0,0,0,0.6)}
-.live{position:absolute;top:22px;right:22px;display:flex;align-items:center;gap:8px;background:rgba(34,197,94,0.15);border:1px solid #22c55e55;padding:6px 14px;border-radius:100px;font-size:12px;color:#22c55e}
-.dot{width:8px;height:8px;background:#22c55e;border-radius:50%;animation:pulse 2s infinite}
-@keyframes pulse{0%{box-shadow:0 0 0 0 #22c55e88}70%{box-shadow:0 0 0 10px transparent}100%{box-shadow:0 0 0 0 transparent}}
-.logo{width:86px;height:86px;background:linear-gradient(135deg,#a855f7,#ec4899);border-radius:22px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:34px;box-shadow:0 15px 35px rgba(168,85,247,0.4)}
-h1{font-size:44px;margin:20px 0 5px;letter-spacing:-1.5px}
-h1 span{background:linear-gradient(90deg,#a855f7,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.fiverr-badge{display:inline-block;background:#1dbf73;color:#fff;padding:8px 18px;border-radius:100px;font-size:13px;font-weight:700;margin:12px 0;letter-spacing:0.5px}
-h2{font-size:18px;color:#a1a1aa;font-weight:500;margin:5px 0 15px;letter-spacing:1px}
-.desc{color:#d4d4d8;line-height:1.8;font-size:16px;margin:18px 0}
-.desc b{color:#fff}
-.services{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0}
-.service{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:12px 14px;font-size:13px;color:#ccc}
-.service b{color:#fff;display:block;font-size:14px;margin-bottom:2px}
-.btns{display:flex;gap:12px;margin-top:22px}
-.btn{flex:1;padding:15px;border-radius:100px;text-decoration:none;font-weight:700;text-align:center;transition:0.3s}
-.btn1{background:#fff;color:#000}
-.btn2{background:#1dbf73;color:#fff}
-.btn:hover{transform:translateY(-3px);box-shadow:0 15px 30px rgba(168,85,247,0.3)}
-.footer{margin-top:25px;display:flex;flex-wrap:wrap;gap:8px}
-.tag{font-size:11px;padding:7px 12px;border-radius:100px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);color:#aaa}
+:root{--bg:#08090B;--bg2:#111317;--line:rgba(255,255,255,0.09);--line2:rgba(255,255,255,0.06);--text:#F2F3F5;--muted:#9AA0B2;--muted2:#6B7288;--blue:#4F6CF7;--blue2:#6B85FF}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.mono{font-family:'Fragment Mono',monospace}.serif{font-family:'Instrument Serif',serif}
+.bg{position:fixed;inset:0;z-index:-2;background:var(--bg)}
+.bg::before{content:'';position:absolute;inset:0;background:radial-gradient(1200px 600px at 15% -10%, rgba(79,108,247,0.18), transparent 60%),radial-gradient(800px 400px at 90% 0%, rgba(255,255,255,0.04), transparent)}
+.lines{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:0.4;background-image:linear-gradient(var(--line2) 1px, transparent 1px);background-size:100% 72px;mask-image:linear-gradient(to bottom, transparent, black 20%, black 80%, transparent)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+.topbar{height:64px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(8,9,11,0.8);backdrop-filter:blur(20px);z-index:10}
+.topbar-left{display:flex;align-items:center;gap:18px}
+.mark{width:32px;height:32px;background:#fff;color:#000;display:grid;place-items:center;font-weight:700;font-size:13px;letter-spacing:-0.5px;border-radius:8px}
+.topbar-nav{display:flex;gap:28px}.topbar-nav a{font-family:'Fragment Mono';font-size:12.5px;color:var(--muted);letter-spacing:0.3px}.topbar-nav a:hover{color:var(--text)}
+.live{display:flex;align-items:center;gap:8px;font-family:'Fragment Mono';font-size:12px;color:var(--muted);border:1px solid var(--line);padding:6px 12px;border-radius:999px}.live i{width:6px;height:6px;background:#22C55E;border-radius:50%;box-shadow:0 0 10px #22C55E;display:inline-block}
+.hero{padding:84px 0 36px;border-bottom:1px solid var(--line)}
+.kicker{font-family:'Fragment Mono';font-size:12px;letter-spacing:1.6px;text-transform:uppercase;color:var(--muted2);margin-bottom:28px}
+.hi{font-family:'Inter';font-size:14px;font-weight:500;color:var(--muted);letter-spacing:-0.2px;margin-bottom:6px}.hi b{color:var(--text);font-weight:600}
+.name-row{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap}
+.main-name{font-family:'Instrument Serif';font-size:clamp(56px, 9vw, 108px);line-height:0.85;letter-spacing:-3px;font-weight:400}
+.main-name em{font-style:italic;font-weight:400;color:var(--muted);font-size:0.55em;letter-spacing:-1px;transform:translateY(-8px);display:inline-block}
+.handle-line{margin-top:10px;font-family:'Fragment Mono';font-style:italic;font-size:22px;color:var(--blue2);letter-spacing:-0.3px}
+.meta-row{margin-top:32px;display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.pill{font-family:'Fragment Mono';font-size:11.5px;padding:7px 12px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:rgba(255,255,255,0.02)}
+.pill.pro{background:#fff;color:#000;border-color:#fff;font-weight:600;letter-spacing:0.2px}
+.desc{max-width:560px;margin-top:36px;font-size:17px;line-height:1.65;color:var(--muted);letter-spacing:-0.2px}.desc strong{color:var(--text);font-weight:600}
+.actions{margin-top:28px;display:flex;gap:12px}.btn{height:40px;padding:0 18px;border-radius:10px;font-size:13.5px;font-weight:500;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);transition:.2s}.btn-dark{background:#fff;color:#000;border-color:#fff}.btn-dark:hover{background:#EAEAEA}.btn-ghost:hover{background:rgba(255,255,255,0.06)}
+.section{padding:48px 0;border-bottom:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:28px}.section-head h2{font-family:'Instrument Serif';font-size:32px;font-weight:400;letter-spacing:-1px}.section-head span{font-family:'Fragment Mono';font-size:12px;color:var(--muted2)}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden}.grid-3 > div{background:var(--bg2);padding:28px}.grid-3 h3{font-size:14px;font-weight:600;margin-bottom:10px;letter-spacing:-0.2px}.grid-3 p{font-size:13.5px;color:var(--muted);line-height:1.6}.grid-3 .num{font-family:'Fragment Mono';font-size:11px;color:var(--muted2);margin-bottom:18px;display:block}
+.projects{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+@media(max-width:800px){.grid-3,.projects{grid-template-columns:1fr}.topbar-nav{display:none}}
+.project{background:var(--bg2);padding:28px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between}.project-top{display:flex;justify-content:space-between;align-items:start;margin-bottom:24px}.project-tag{font-family:'Fragment Mono';font-size:10.5px;letter-spacing:0.8px;text-transform:uppercase;color:var(--muted2);border:1px solid var(--line);padding:4px 8px;border-radius:6px}.project h4{font-family:'Instrument Serif';font-size:26px;font-weight:400;letter-spacing:-0.8px;margin-bottom:8px}.project p{font-size:13.5px;color:var(--muted);line-height:1.6;max-width:36ch}.project-link{margin-top:24px;font-family:'Fragment Mono';font-size:12px;color:var(--text);display:inline-flex;align-items:center;gap:6px;opacity:0.8}.project-link:hover{opacity:1}
+.stack{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.stack span{font-family:'Fragment Mono';font-size:11px;color:var(--muted);border:1px solid var(--line);padding:5px 10px;border-radius:999px;background:rgba(255,255,255,0.015)}
+.footer{padding:40px 0 60px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer p{font-family:'Fragment Mono';font-size:12px;color:var(--muted2)}.footer a{font-family:'Fragment Mono';font-size:12px;color:var(--muted);text-decoration:underline;text-underline-offset:4px}.footer a:hover{color:var(--text)}
+::selection{background:var(--blue);color:white}
 </style>
 </head>
 <body>
-<div class="bg"></div>
-<div class="card">
-<div class="live"><div class="dot"></div> Available on Fiverr</div>
-<div class="logo">A9</div>
-<h1>Hi, I'm <span>Aliya Dev</span></h1>
-<div class="fiverr-badge">⭐ PRO LEVEL FREELANCER ON FIVERR</div>
-<h2>Pro Web Development | Pro Website Design | @aliyadev9</h2>
-<p class="desc">
-I'm <b>Aliya - Pro Level Fiverr Freelancer</b> specializing in <b>Pro Web Development & Pro Web Design</b>. I build <b>modern, fast, responsive & cinematic business websites</b> that convert visitors into clients.<br><br>
-✅ <b>@aliyadev9</b> - Trusted by 50+ clients worldwide on Fiverr.<br>
-✅ Figma to Code, Landing Pages, Business Websites, Portfolio Sites.
-</p>
-<div class="services">
-<div class="service"><b>🚀 Pro Business Website</b>High-converting design</div>
-<div class="service"><b>🎨 Pro Web Design</b>Ultra modern & cinematic</div>
-<div class="service"><b>💻 Pro Web Development</b>Clean HTML/CSS/JS Code</div>
-<div class="service"><b>📱 100% Responsive</b>Mobile, Tablet, Desktop</div>
+<div class="bg"></div><div class="lines"></div>
+<div class="wrap">
+<header class="topbar">
+<div class="topbar-left"><div class="mark">A9</div><nav class="topbar-nav"><a href="#services">services</a><a href="#work">work</a><a href="#stack">stack</a></nav></div>
+<div class="live"><i></i> available on fiverr — aliyadev9</div>
+</header>
+<section class="hero">
+<div class="kicker">pro software engineer portfolio — 2026</div>
+<div class="hi"><b>Hi</b>, I'm <b>Aliya</b></div>
+<div class="name-row"><h1 class="main-name">Aliya Dev <em>aliyadev9</em></h1></div>
+<div class="handle-line">aliyadev9 — italic handle</div>
+<div class="meta-row"><div class="pill pro">★ pro fiverr freelancer</div><div class="pill">pro web development</div><div class="pill">pro web design</div><div class="pill">100% custom code</div></div>
+<p class="desc">I'm a <strong>Pro Level Fiverr Freelancer</strong> and Software Engineer based in Pakistan. I specialize in <strong>Pro Web Development & Pro Web Design</strong> — building <strong>fast, modern, clean business websites</strong> for founders. No templates, no AI-generated fluff. Just hand-coded, conversion-focused work.</p>
+<div class="actions"><a class="btn btn-dark" href="https://www.fiverr.com/aliyadev9" target="_blank">hire me on fiverr — @aliyadev9</a><a class="btn btn-ghost" href="mailto:aliyadev9@gmail.com">email me</a></div>
+</section>
+<section class="section" id="services">
+<div class="section-head"><h2>What I do</h2><span class="mono">services / 03</span></div>
+<div class="grid-3">
+<div><span class="num">01 / development</span><h3>Pro Web Development</h3><p>Next.js, React, TypeScript. Clean components, semantic HTML, 95+ Lighthouse, real performance not fake scores.</p></div>
+<div><span class="num">02 / design</span><h3>Pro Web Design</h3><p>Figma to code. Minimal, editorial, business-ready layouts. Spacing, type, and grid — engineered, not decorated.</p></div>
+<div><span class="num">03 / business</span><h3>For Fiverr Clients</h3><p>Landing pages that convert, business sites, portfolio sites for founders. Fast delivery, clean handover, deploy on Vercel.</p></div>
 </div>
-<div class="btns">
-<a class="btn btn2" href="https://www.fiverr.com/" target="_blank">Hire Me on Fiverr</a>
-<a class="btn btn1" href="https://github.com/aliyadev9" target="_blank">GitHub @aliyadev9</a>
+</section>
+<section class="section" id="work">
+<div class="section-head"><h2>Selected work</h2><span class="mono">2024 — 2026</span></div>
+<div class="projects">
+<div class="project"><div><div class="project-top"><span class="project-tag">business site</span><span class="mono" style="font-size:11px;color:var(--muted2)">next.js / 2025</span></div><h4>Agency site — conversion first</h4><p>A high-converting agency site. Custom grid, mono details, 0.8s load. Built for a Fiverr client.</p></div><a class="project-link" href="#">view case →</a></div>
+<div class="project"><div><div class="project-top"><span class="project-tag">saas landing</span><span class="mono" style="font-size:11px;color:var(--muted2)">react / tailwind</span></div><h4>Product landing — editorial</h4><p>Clean hero, serif headlines, mono meta. No animations spam — just type and whitespace.</p></div><a class="project-link" href="#">view case →</a></div>
 </div>
-<div class="footer">
-<span class="tag">Fiverr Pro Freelancer</span>
-<span class="tag">Pro Web Developer</span>
-<span class="tag">Pro Web Designer</span>
-<span class="tag">Business Websites</span>
-<span class="tag">aliyadev9</span>
-<span class="tag">Frontend Expert</span>
+</section>
+<section class="section" id="stack">
+<div class="section-head"><h2>Stack & workflow</h2><span class="mono">hand-coded</span></div>
+<div class="grid-3">
+<div><span class="num">stack</span><h3>Technologies I use daily</h3><div class="stack"><span>Next.js 15</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>Figma</span><span>Vercel</span><span>Git / GitHub</span></div></div>
+<div><span class="num">process</span><h3>How I work</h3><p>01 Brief → 02 Wireframe → 03 Code in Next.js → 04 Review on Vercel → 05 Deploy. No WordPress, no builders.</p></div>
+<div><span class="num">fiverr</span><h3>Pro freelancer — aliyadev9</h3><p>Available on Fiverr for pro web projects. Fast replies, clean code, unlimited revisions until you are happy. Pro level.</p></div>
 </div>
+</section>
+<footer class="footer"><p>© 2026 Aliya Dev — aliyadev9 — built with Next.js, shipped on Vercel, code on GitHub.</p><div style="display:flex;gap:18px"><a href="https://github.com/aliyadev9">github</a><a href="https://www.fiverr.com/aliyadev9">fiverr</a><a href="mailto:aliyadev9@gmail.com">email</a></div></footer>
 </div>
 </body>
 </html>

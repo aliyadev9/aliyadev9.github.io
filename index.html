@@ -4,198 +4,141 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light only">
-<title>Aliya Dev</title>
+<meta name="theme-color" content="#E8E0D8">
+<title>Aliya Dev - Business Website Developer</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
 <style>
-:root { color-scheme: light only; }
-* { margin:0; padding:0; box-sizing:border-box; }
-body {
-  background: #E8E0D8;
+:root{color-scheme:light only}
+*{margin:0;padding:0;box-sizing:border-box}
+html{ background:#E8E0D8 !important; }
+body{
+  background: #E8E0D8 !important;
   background-image: 
-    radial-gradient(at 0% 0%, rgba(120,119,198,0.25) 0px, transparent 50%),
-    radial-gradient(at 100% 0%, rgba(255,119,198,0.20) 0px, transparent 50%),
-    radial-gradient(at 50% 100%, rgba(120,219,255,0.20) 0px, transparent 50%);
-  background-attachment: fixed;
-  min-height: 100vh;
-  font-family: 'Inter', sans-serif;
-  display: flex;
-  justify-content: center;
-  padding: 40px 16px;
+    radial-gradient(at 20% 10%, rgba(120,119,198,0.18) 0px, transparent 50%),
+    radial-gradient(at 90% 10%, rgba(255,119,198,0.15) 0px, transparent 50%),
+    radial-gradient(at 50% 90%, rgba(120,219,255,0.18) 0px, transparent 50%) !important;
+  min-height:100vh;
+  font-family:'Inter',sans-serif;
+  display:flex; justify-content:center;
+  padding:36px 14px;
 }
-.page {
-  width: 100%;
-  max-width: 520px;
-}
+.page{ width:100%; max-width:520px; }
 
-/* TOP - NO BOX */
-.top {
-  display:flex; justify-content:space-between; align-items:center;
-  padding: 0 4px;
-}
-.hi { font-size:14px; color:#5a5a5a; }
-.pill {
+/* TOP - CLEAN NO BOX */
+.top{ display:flex; justify-content:space-between; align-items:center; padding:0 6px; }
+.hi{ font-size:13.5px; color:#6B7280; }
+.pill{
   display:flex; align-items:center; gap:6px;
-  background: rgba(255,255,255,0.55);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.7);
-  border-top: 1px solid #fff;
-  border-radius:100px; padding:8px 14px;
+  background:rgba(255,255,255,0.6);
+  backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,0.8);
+  border-radius:100px; padding:7px 12px;
   font-size:12px; font-weight:600; color:#166534;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.06), 0 1px 0 #fff inset;
+  box-shadow:0 2px 10px rgba(0,0,0,0.05), inset 0 1px 0 #fff;
 }
-.dot { width:8px; height:8px; background:#22C55E; border-radius:50%; box-shadow:0 0 10px #22C55E; }
+.dot{ width:8px; height:8px; background:#22C55E; border-radius:50%; box-shadow:0 0 8px #22C55E; }
 
-/* NAME - NO BOX, CLEAN */
-.name {
-  font-family: 'Instrument Serif', serif;
-  font-style: italic;
-  font-size: 64px;
-  line-height: 0.95;
-  color: #0A0A0A;
-  margin-top: 24px;
-  padding: 0 4px;
-  letter-spacing: -1px;
-  text-shadow: 0 2px 0 rgba(255,255,255,0.8);
+/* NAME ITALIC - CLEAN */
+.name{
+  font-family:'Instrument Serif',serif;
+  font-style:italic;
+  font-size:62px; line-height:0.95;
+  color:#0A0A0A; margin-top:22px; padding:0 6px;
+  letter-spacing:-1px;
 }
-.sub {
-  margin-top:10px;
-  font-size:13.5px; font-weight:500;
-  color:#333;
-  padding: 0 4px;
-}
+.sub{ margin-top:8px; font-size:13px; font-weight:500; color:#333; padding:0 6px; }
 
-/* BLUE SHINY GLASS - SHEESHAY JAISA */
-.blue-glass {
+/* BLUE SHINY BIZ ULTRA 3D DROP */
+.blue{
   width:100%;
-  background: linear-gradient(180deg, rgba(123,174,255,0.9) 0%, rgba(59,130,246,0.95) 100%);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.6);
-  border-top: 1.5px solid rgba(255,255,255,0.95);
-  border-radius:100px;
-  padding:18px 22px;
-  color:#fff; font-weight:700; font-size:15px;
-  display:flex; align-items:center; gap:12px;
-  margin-top:14px;
-  position:relative;
-  box-shadow: 
-    0 1px 0 rgba(255,255,255,0.9) inset,
-    0 10px 30px rgba(59,130,246,0.30),
-    0 4px 10px rgba(59,130,246,0.18);
+  background: linear-gradient(180deg, #8AB6FF 0%, #3B82F6 100%);
+  border:1px solid rgba(255,255,255,0.5);
+  border-top:1.5px solid rgba(255,255,255,0.95);
+  border-radius:100px; padding:17px 20px;
+  color:#fff; font-weight:700; font-size:14.5px;
+  display:flex; align-items:center; gap:11px;
+  margin-top:13px; position:relative;
+  /* ULTRA 3D DROP ASSIST */
+  box-shadow:
+    inset 0 1.5px 0 rgba(255,255,255,0.9),
+    0 6px 14px rgba(59,130,246,0.28),
+    0 14px 30px rgba(59,130,246,0.18);
 }
-.blue-glass::after {
-  content:''; position:absolute; top:0; left:4px; right:4px; height:52%;
-  background: linear-gradient(180deg, rgba(255,255,255,0.6), transparent);
+.blue::after{
+  content:''; position:absolute; top:0; left:6px; right:6px; height:50%;
+  background:linear-gradient(180deg, rgba(255,255,255,0.55), transparent);
   border-radius:100px; pointer-events:none;
 }
 
-/* BIO - REAL GLASS SHEESHA */
-.bio-glass {
-  margin-top:18px;
-  background: rgba(255,255,255,0.42);
-  backdrop-filter: blur(30px) saturate(160%);
-  -webkit-backdrop-filter: blur(30px) saturate(160%);
-  border: 1px solid rgba(255,255,255,0.65);
-  border-top: 1.5px solid rgba(255,255,255,0.95);
-  border-left: 1px solid rgba(255,255,255,0.8);
-  border-radius:20px; padding:20px;
-  box-shadow: 
-    0 1px 0 #fff inset,
-    0 12px 32px rgba(0,0,0,0.06),
-    0 4px 12px rgba(0,0,0,0.04);
-  position:relative;
-  overflow:hidden;
+/* BIO - REAL SHEESHA GLASS */
+.bio{
+  margin-top:16px;
+  background: rgba(255,255,255,0.38);
+  backdrop-filter: blur(28px) saturate(150%);
+  -webkit-backdrop-filter: blur(28px) saturate(150%);
+  border:1px solid rgba(255,255,255,0.6);
+  border-top:1.5px solid rgba(255,255,255,0.9);
+  border-radius:20px; padding:18px 18px;
+  box-shadow: inset 0 1px 0 #fff, 0 10px 30px rgba(0,0,0,0.05);
 }
-.bio-glass::before {
-  content:''; position:absolute; top:0; left:0; width:100%; height:100%;
-  background: linear-gradient(120deg, rgba(255,255,255,0.4) 0%, transparent 40%, transparent 80%, rgba(255,255,255,0.2) 100%);
-  pointer-events:none;
-}
-.bio-glass .label { font-size:10.5px; letter-spacing:1.2px; color:#6B7280; font-weight:700; margin-bottom:10px; position:relative; }
-.bio-glass .text { font-size:13.5px; line-height:1.7; color:#1F2937; position:relative; }
+.bio .label{ font-size:10.5px; letter-spacing:1px; color:#6B7280; font-weight:700; margin-bottom:8px; }
+.bio .text{ font-size:13.2px; line-height:1.65; color:#1F2937; }
 
 /* LINKS - REAL GLASS + REAL LOGOS */
-.glass-link {
+.link{
   width:100%;
-  background: rgba(255,255,255,0.38);
-  backdrop-filter: blur(24px) saturate(160%);
-  -webkit-backdrop-filter: blur(24px) saturate(160%);
-  border: 1px solid rgba(255,255,255,0.6);
-  border-top: 1.5px solid rgba(255,255,255,0.9);
-  border-radius:18px; padding:16px 18px;
-  display:flex; align-items:center; gap:14px;
+  background: rgba(255,255,255,0.40);
+  backdrop-filter: blur(24px) saturate(150%);
+  -webkit-backdrop-filter: blur(24px) saturate(150%);
+  border:1px solid rgba(255,255,255,0.6);
+  border-top:1.5px solid rgba(255,255,255,0.9);
+  border-radius:16px; padding:15px 16px;
+  display:flex; align-items:center; gap:13px;
   text-decoration:none; color:#111;
-  margin-top:14px;
-  box-shadow: 
-    0 1px 0 #fff inset,
-    0 8px 24px rgba(0,0,0,0.05);
-  transition: 0.25s;
-  position:relative; overflow:hidden;
+  margin-top:12px;
+  box-shadow: inset 0 1px 0 #fff, 0 8px 22px rgba(0,0,0,0.05);
+  transition:0.2s;
 }
-.glass-link::before {
-  content:''; position:absolute; top:0; left:0; width:100%; height:60%;
-  background: linear-gradient(180deg, rgba(255,255,255,0.5), transparent);
-  pointer-events:none;
-}
-.glass-link:hover { transform: translateY(-2px); background: rgba(255,255,255,0.52); box-shadow: 0 16px 40px rgba(0,0,0,0.08); }
-.logo { width:44px; height:44px; border-radius:12px; display:grid; place-items:center; flex-shrink:0; position:relative; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-.glass-link h4 { font-size:15.5px; font-weight:700; position:relative; }
-.glass-link p { font-size:12.5px; color:#6B7280; margin-top:2px; position:relative; }
-
-/* TIKTOK BLUE GLASS */
-.glass-link.blue {
-  background: linear-gradient(180deg, rgba(96,165,250,0.85) 0%, rgba(59,130,246,0.9) 100%);
-  border-color: rgba(255,255,255,0.5);
-  color:#fff;
-}
-.glass-link.blue p { color: rgba(255,255,255,0.9); }
-.glass-link.blue h4 { color:#fff; }
+.link:hover{ transform:translateY(-2px); background:rgba(255,255,255,0.55); box-shadow:0 14px 32px rgba(0,0,0,0.08); }
+.logo{ width:42px; height:42px; border-radius:11px; display:grid; place-items:center; flex-shrink:0; }
+.link h4{ font-size:15px; font-weight:700; }
+.link p{ font-size:12.5px; color:#6B7280; margin-top:2px; }
+.link.blue-link{ background:linear-gradient(180deg, rgba(96,165,250,0.9) 0%, rgba(59,130,246,0.95) 100%); color:#fff; border-color:rgba(255,255,255,0.4); }
+.link.blue-link p{ color:rgba(255,255,255,0.9); }
+.link.blue-link h4{ color:#fff; }
 </style>
 </head>
 <body>
 <div class="page">
 
-  <div class="top">
-    <div class="hi">Hi, I'm Aliya</div>
-    <div class="pill"><span class="dot"></span> available for work</div>
-  </div>
+<div class="top"><div class="hi">Hi, I'm Aliya</div><div class="pill"><span class="dot"></span> available for work</div></div>
 
-  <h1 class="name">Aliya Dev</h1>
-  <div class="sub">Business Website Developer • HTML • CSS • JavaScript</div>
+<h1 class="name">Aliya Dev</h1>
+<div class="sub">Business Website Developer • HTML • CSS • JavaScript</div>
 
-  <div class="blue-glass">📄 Clean Business Websites</div>
-  <div class="blue-glass">📑 Responsive Design</div>
-  <div class="blue-glass">⚡ Fast Loading</div>
+<div class="blue">📄 Clean Business Websites</div>
+<div class="blue">📑 Responsive Design</div>
+<div class="blue">⚡ Fast Loading</div>
 
-  <div class="bio-glass">
-    <div class="label">PROFESSIONAL BIO</div>
-    <div class="text">I'm Aliya Dev, a passionate Business Website Developer from Pakistan. I specialize in crafting clean, modern, responsive and fast-loading business websites using HTML, CSS & JavaScript. I help small businesses and startups build a strong online presence.<br><br><b>Available on Fiverr @aliyadevpro</b></div>
-  </div>
+<div class="bio">
+<div class="label">PROFESSIONAL BIO</div>
+<div class="text">I'm Aliya Dev, a passionate Business Website Developer from Pakistan. I specialize in crafting clean, modern, responsive and fast-loading business websites using HTML, CSS & JavaScript. I help small businesses and startups build a strong online presence.<br><br><b>Available on Fiverr @aliyadevpro</b></div>
+</div>
 
-  <!-- FIVERR REAL LOGO -->
-  <a class="glass-link" href="https://www.fiverr.com/aliyadevpro" target="_blank">
-    <div class="logo" style="background:#1DBF73;">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M12.02 2.02c-1.34 0-2.2.5-2.66 1.28-.48.8-.64 1.9-.64 3.14v1.24H5.9c-.42 0-.71.14-.88.4-.16.25-.21.6-.12 1.04l.55 2.5c.08.4.26.7.52.88.26.18.6.27 1 .27h1.75v6.55c0 .44.14.77.43.99.29.22.7.33 1.22.33h2.37c.52 0 .93-.11 1.22-.33.29-.22.43-.55.43-.99v-6.55h2.3c.44 0 .79-.1 1.05-.31.26-.2.43-.51.52-.92l.55-2.5c.09-.44.04-.79-.12-1.04-.17-.26-.46-.4-.88-.4h-3.32V6.44c0-.55.1-.92.29-1.12.2-.2.53-.3.99-.3h2.02c.46 0 .79-.11.99-.34.2-.23.3-.54.3-.94V3.03c0-.4-.1-.71-.3-.94-.2-.23-.53-.34-.99-.34h-3.4c-1.02 0-1.85.13-2.5.4-.64.26-1.16.66-1.55 1.19-.39.53-.66 1.18-.81 1.96l-.02.14z"/></svg>
-    </div>
-    <div><h4>Fiverr</h4><p>@aliyadevpro</p></div>
-  </a>
+<a class="link" href="https://www.fiverr.com/aliyadevpro" target="_blank">
+<div class="logo" style="background:#1DBF73;"><span style="color:#fff;font-weight:900;font-size:22px;">f</span></div>
+<div><h4>Fiverr</h4><p>@aliyadevpro</p></div>
+</a>
 
-  <!-- GITHUB REAL LOGO -->
-  <a class="glass-link" href="https://github.com/aliyadev9" target="_blank">
-    <div class="logo" style="background:#0A0A0A;">
-      <svg width="26" height="26" viewBox="0 0 16 16" fill="white"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-    </div>
-    <div><h4>GitHub</h4><p>github.com/aliyadev9</p></div>
-  </a>
+<a class="link" href="https://github.com/aliyadev9" target="_blank">
+<div class="logo" style="background:#111;"><svg width="24" height="24" viewBox="0 0 16 16" fill="white"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></div>
+<div><h4>GitHub</h4><p>github.com/aliyadev9</p></div>
+</a>
 
-  <!-- TIKTOK REAL LOGO -->
-  <a class="glass-link blue" href="https://www.tiktok.com/@eshal__web5" target="_blank">
-    <div class="logo" style="background:#fff;">
-      <svg width="20" height="20" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
-    </div>
-    <div><h4>TikTok</h4><p>@eshal__web5</p></div>
-  </a>
+<a class="link blue-link" href="https://www.tiktok.com/@eshal__web5" target="_blank">
+<div class="logo" style="background:#fff;"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></div>
+<div><h4>TikTok</h4><p>@eshal__web5</p></div>
+</a>
 
 </div>
 </body>
